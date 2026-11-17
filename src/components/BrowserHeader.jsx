@@ -1,0 +1,1 @@
+import React from 'react'; export default function BrowserHeader({ setView }) { return (<header className="p-4 flex justify-between bg-black/20 backdrop-blur-md"> <h1 className="font-bold">EvEr SmArT BrOwSeR</h1> <nav className="space-x-4"> <button onClick={() => setView('home')}>Home</button> <button onClick={() => setView('admin')}>Admin</button> </nav> </header>); }

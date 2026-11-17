@@ -1,0 +1,1 @@
+import React from 'react'; export default function AppGrid() { const apps = ['Islamic', 'News', 'AI', 'Social', 'General']; return (<div className="p-6 grid grid-cols-2 md:grid-cols-5 gap-4"> {apps.map(app => (<div key={app} className="h-32 bg-white/10 rounded-xl flex items-center justify-center border border-white/20">{app}</div>))} </div>); }

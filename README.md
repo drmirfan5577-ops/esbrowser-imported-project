@@ -1,2 +1,1 @@
-# esbrowser-imported-project
-Created with Universal AI Manager
+# EvEr SmArT BrOwSeR\n\nProduction-grade browser with bilingual UI, themes, and content hubs.\n\n## Setup\n1. npm install\n2. npm run dev
